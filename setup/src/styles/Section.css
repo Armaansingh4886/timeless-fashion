@@ -1,0 +1,27 @@
+.video{
+    position: relative;
+    height: 250px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.video-background_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+   /* z-index: -1; */
+}
+.video>.heading{
+position: absolute;
+font-size: 80px;
+z-index: 1;
+font-family: cursive;
+}
+.video>.heading>p{
+
+}

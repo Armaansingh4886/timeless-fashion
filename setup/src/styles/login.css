@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh;
+    background-color: white;
+  }
+  .komal{
+    width:420px;
+    background-color: white;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  .komal h1{
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+  }
+  .komal .input-box{
+    position: relative;
+    width: 100%;
+    height:50px;
+    margin: 30px 0px;
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background:gainsboro;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px!important;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input ::placeholder{
+    color: #fff;
+  }
+  .input-box .icon{
+    position: absolute ;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:16px;
+  }
+  .komal .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  
+  }
+   .remember-forgot label{
+    color: #333;
+   }
+  .remember-forgot a{
+    color: #333;
+    text-decoration: none;
+  }
+  .remember-forgot a :hover{
+    text-decoration: underline;
+  }
+  .komal button{
+    width: 100%;
+    height: 45px;
+    background: #ee4084;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10pxrgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+  }
+  .komal .register-link{
+    display: flex;
+    justify-content: center;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: black;
+  } 
+  .register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  
+  }

@@ -1,0 +1,150 @@
+/* UploadItemForm.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* position:relative; */
+}
+
+.upload-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+  width: 35%;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 14px 14px 29px rgb(82, 82, 82);
+  
+}
+
+.form-group {
+  margin-bottom: 10px!important;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+  padding: 5px;
+}
+
+.form-group input[type="range"] {
+  width: 100%;
+}
+
+.discount-value {
+  margin-top: 10px;
+}
+
+.post-button { 
+   
+  padding: 10px 20px;
+  background-color: #ff4084;
+  margin: 0 12%;
+  color: white;
+  border: none;
+  /* width: 400px; */
+  width: 75%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.post-button:hover {
+  background-color: #555;
+}
+
+.image-details {
+  width: 50%;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-preview {
+  height: 300px;
+  width: 250px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.details-box {
+  text-align: left;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 75%;
+  min-height: 25%;
+  padding: 20px;
+}
+
+.details-box h3 {
+  margin-top: 0;
+}
+
+.details-box p {
+  margin: 5px 0;
+}
+
+.selection{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5555557a;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check{
+  height: 200px;
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.check button{
+  background-color: #ff4084;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px;
+}

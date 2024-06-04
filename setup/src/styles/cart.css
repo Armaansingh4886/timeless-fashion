@@ -1,0 +1,60 @@
+.measurements {
+    margin: 20px 0;
+  }
+  
+  .measurements h3 {
+    margin-bottom: 10px;
+  }
+  
+  .measurements input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+  }
+  
+  .buy-button {
+    padding: 15px;
+    background-color: #ff4084;
+    width: 60%;
+    margin: auto 20%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+
+
+
+
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-left: 10px;
+}
+.form-row{
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-control {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+.form-label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    font-size: 0.75rem;
+    transform: translateY(-50%);
+    color: #6c757d;
+    border-radius: 10px;
+}
